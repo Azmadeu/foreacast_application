@@ -1,0 +1,75 @@
+
+img{
+    width: 100px;
+    height: 80px;
+
+}
+
+body {
+    background-size: 100% 100%;
+    background: url(http://deskbg.com/i/c/1366x768/wpp/0/638/nighttime-desktop-background.jpg)
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: -35px;
+}
+
+.api-icon ul {
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.api-icon ul, li{
+    list-style-type:none;
+    text-decoration: none;
+}
+.api-icon li{
+    font-weight: 600;
+    font-size: 60px;
+    color: #e6dad0;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 1px black;
+    opacity: 0.9;
+    padding: 0 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: #e0bf77;
+    text-shadow: 2px 2px #543d2c;
+    opacity: 0.9;
+
+}
+
+.api-weather ul {
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+}
+
+.api-weather ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.api-weather li {
+    font-size: 20px;
+    background-color: #022445;
+    padding: 18px 30px;
+    margin: 2px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-shadow: 1px 1px #000000;
+    color: #e2886c;
+}
