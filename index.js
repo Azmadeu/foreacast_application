@@ -1,7 +1,4 @@
-// var KIEV_COORDINATES = {
-//     lat: 50.43,
-//     lon: 30.52
-// };
+
 function weatherApp() {
     $.ajax({
         url: 'https://fcc-weather-api.glitch.me/api/current?lat=50.43&lon=30.52'
