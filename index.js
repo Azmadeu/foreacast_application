@@ -1,4 +1,3 @@
-
 function weatherApp() {
     $.ajax({
         url: 'https://fcc-weather-api.glitch.me/api/current?lat=50.43&lon=30.52'
@@ -10,12 +9,13 @@ function weatherApp() {
         var description = data.weather[0].description;
         var wind = data.wind.speed;
         $('#icon').attr("src", icon);
-        $('#temp').html(temp+"°C");
-        $('#country').html(city+", "+country);
+        $('#temp').html(temp + "°C");
+        $('#country').html(city + ", " + country);
         $('#description').html(description);
-        $('#wind').html("wind: "+wind+" m/s")
+        $('#wind').html("wind: " + wind + " m/s")
     })
 }
+
 window.onload = function () {
     weatherApp();
 }
