@@ -11,7 +11,7 @@ img {
 
 body {
     background-size: 100% 100%;
-    background: url(http://deskbg.com/i/c/1366x768/wpp/0/638/nighttime-desktop-background.jpg)
+    background: url('background.jpg')
 }
 
 h1 {
@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     position: fixed;
-    left: 44%;
+    left: 45%;
     bottom: 0;
     color: white;
 
@@ -89,4 +89,37 @@ h1, h2 {
     border-radius: 3px;
     font-weight: 600;
     color: #e2886c;
+}
+
+.error ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.error li {
+    font-size: 18px;
+    background-color: #022445;
+    padding: 15px 40px 15px;
+    margin: 2px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #e2886c;
+}
+
+.error ul {
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+.error img {
+    width: 25px;
+    height: 25px;
+}
+
+.border {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
 }
