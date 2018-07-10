@@ -14,7 +14,7 @@ function getLocation() {
 function renderError(){
     return '<div class="error">\
                 <ul>\
-                     <li>Sorry, but this App doesnt work without your geolocation.<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Frowny.svg/1024px-Frowny.svg.png" >\
+                     <li>Sorry, but this App doesnt work without your geolocation.<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Frowny.svg/1024px-Frowny.svg.png" >\
                     </li>\
                 </ul>\
             </div>';
@@ -45,7 +45,7 @@ function weatherApp(position) {
         lon: position.coords.longitude
     };
     $.ajax({
-        url: 'https://fcc-weather-api.glitch.me/api/current?' + $.param(coords)
+        url: 'http://fcc-weather-api.glitch.me/api/current?' + $.param(coords)
     }).done(function (data) {
         $('.selected-el').after(renderImages());
         $('.api-temp').after(renderWeather());
